@@ -1,0 +1,167 @@
+<!-- Define that we are working with HTML5 -->
+<!DOCTYPE html>
+
+<!-- start HTML, which is the root element -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            
+                <nav class="navbar"> 
+                    <img class="logo"  src="assets/letter-m_11873234 (1).png" alt="logo">
+                    <ul>
+                        <li class="Home_button"><a href="#home">Home</a></li>
+                        <li class="About_button"><a href="#about">About</a></li>
+                        <li class="Myproject_button"><a href="#myproject">my projects</a></li>
+                        <li class="Contact_button"><a href="#contact">Contact Me</a></li>  
+                    </ul>            
+                </nav>
+            </header>
+            
+            <hr>
+            <!-- Hero section -->
+                <section class="Home_section" id="home">
+                    <h2 class="home_text"> <br><br> Welocme; <br>
+                        I'm MOHAMED TAREK
+                    </h2>
+                    <h1>SOFTWARE ENGINEER</h1>
+                    
+                    <img class="homeimg"  src="assets/undraw_Pic_profile_re_7g2h-removebg-preview.png" alt="Welcoming-img">
+
+
+
+                    <img class="homeimg2" src="assets/undraw_Programming_re_kg9v-removebg-preview.png" alt="vision">
+                    <h2 class="home_text2"> FULL STACK DEVELOPER <br> 
+                                            AND SOFTWARE ENGINEER </h2>
+                    <button class="Hire_button" type="button" value="Hire me">HIRE ME </button>
+                </section>
+            
+
+                <!-- About section -->
+                <section class="about_section" id="about">
+                <h2 class="about_text">About Me</h2>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quas doloribus sequi voluptate
+                    praesentium accusantium enim perferendis <br> facere corrupti obcaecati </h4>
+                    <img class="aboutimg" src="assets/undraw_Web_developer_re_h7ie-removebg-preview.png" alt="about img">
+                </section>
+
+
+                    <!-- My projects section -->
+                    <section class="container"  id="myproject">
+
+                        <div class="slide">
+                
+                            
+                            <div class="item" style="background-image: url(assets/undraw_All_the_data_re_hh4w.png);">
+
+                                <div class="content">
+                                    <div class="name">Lung cancer project</div>
+                                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                                    <button class="Preview_button">Preview</button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="item"style="background-image: url(assets/undraw_apartment_rent_o0ut.png)">
+                                <div class="content" >
+                                    <div class="name">Hotel booking project</div>
+                                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                                    <button class="Preview_button">Preview</button>
+                                </div>
+                            </div>
+
+
+
+                            <div class="item" style="background-image: url(assets/grunge-gray-concrete-textured-background\ \(1\).jpg);">
+                                
+                                <div class="content">
+                                    <div class="name">Coming soon...</div>
+                                    <div class="des"></div>
+                                
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                
+                        <div class="button">
+                            <button class="prev">back</button>
+                            <button class="next">next</button>
+                        </div>
+                
+                    </section>
+                        
+
+                        <!-- Contact section -->
+                        <section class="contact-me" id="contact">
+                            <form>
+                                <fieldset>
+                                <legend>CONTACT ME</legend><br>
+
+                                <div class="label1">
+                                    <label class="name_label" for="name">Name:</label> <br>
+                                    <input class="name_input" type="text" id="name" name="name" required> <br>
+                                </div>
+
+                                <div class="label2">
+                                    <label class="email_label" for="email">Email:</label> <br>
+                                    <input class="email_input" type="email" id="email" name="email" required><br>
+                                </div> 
+                                
+
+                                <label for="message"></label>
+                                <textarea id="message" name="message" required>Message</textarea>
+                                <br>
+                            
+                                <button class="Submit_button" type="submit">submit</button>
+                                </fieldset>
+                            </form>
+
+                        </section>
+
+                                <section class="contact-info">
+                                    
+                                    <address><ion-icon class="mail-outline" name="mail-outline"></ion-icon>: mohamedtarek@gmail.com <br>
+                                        <ion-icon class="call-outline" name="call-outline"></ion-icon>: 012xxxxxxx </address><br>
+                                </section>
+
+                                <nav class="navbar_bottom"> 
+                                    <img class="logo"  src="assets/letter-m_11873234 (1).png" alt="logo">
+                                    <ul>
+                                        <li class="Home_button"><a href="#home">Home</a></li>
+                                        <li class="About_button"><a href="#about">About</a></li>
+                                        <li class="Myproject_button"><a href="#myproject">my projects</a></li>
+                                        <li class="Contact_button"><a href="#Contact">Contact Me</a></li>  
+                                    </ul>            
+                                </nav>
+
+                                    <div class="mysocials">
+                                        <h3>Follow my socials:</h3><br>
+                                            <section class="social-links">
+                                            <a class="linkedin-logo" href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                            <a class="X-logo" href="https://X.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                                            <a class="github-logo" href="https://github.com" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                            <a class="facebook-logo" href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                                            <a class="instgram-logo" href="https://instgram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                            </section>
+                                    </div>
+
+
+                                <!-- footer  -->
+                                    <footer>
+                                    <hr class="hr_bottom">
+                                        <p class="copyright">&copy; 2024 MOHAMED. All rights reserved.</p> <a class="policy-link" href="http://">our policy&terms</a>
+                                    </footer>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="script.js"></script>
+        
+    </body>
+</html>
